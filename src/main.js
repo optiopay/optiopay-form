@@ -440,9 +440,9 @@ Formsy.Form = React.createClass({
     } = this.props;
 
     return (
-      <form {...nonFormsyProps} onSubmit={this.submit}>
+      <div {...nonFormsyProps} onSubmit={this.submit}>
         {this.props.children}
-      </form>
+      </div>
     );
 
   }
