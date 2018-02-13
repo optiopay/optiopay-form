@@ -368,7 +368,7 @@ class Formsy extends React.Component {
     } = this.props;
 
     return React.createElement(
-      'form',
+      'div',
       {
         onReset: this.resetInternal,
         onSubmit: this.submit,
